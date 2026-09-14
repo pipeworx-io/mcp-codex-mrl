@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/codex-mrl",
+  "title": "Codex Mrl",
+  "description": "Codex Alimentarius maximum residue limits — the internationally agreed legal",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/codex-mrl",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-codex-mrl",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/codex-mrl/mcp"
+    }
+  ]
+}
