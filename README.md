@@ -2,7 +2,7 @@
 
 The internationally agreed legal ceilings for **pesticide residues** and **veterinary drug residues** in food, adopted by the Codex Alimentarius Commission. Codex MRLs are the reference point for food trade — a shipment rejected at a border is usually rejected against one of these numbers.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1573+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1576+ live data sources.
 
 This is the *permission* side of food chemistry. The *safety* side — the Acceptable Daily Intakes and toxicological evaluations behind the limits — is the [`jecfa`](../jecfa) pack; veterinary drug records here carry a `jecfa_chemical_id` that links the two.
 
@@ -94,7 +94,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1573+ data sources. The
+Both URLs reach the same gateway and the same 1576+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
