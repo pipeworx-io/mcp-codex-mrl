@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-codex-mrl",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Codex Alimentarius maximum residue limits — the internationally agreed legal",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-91d592f50fe9719a04b18b6d06e7661f0eb098d481f02742b14b154319791611",
-    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
+    "sourceHash": "v1-6585bf1b68703e537008c70f3195c127e712fca66562980f904249aa74440466",
+    "sourceCommit": "5b29c2b0c11e1fcd954969a245b474e6e9475116"
   }
 }
