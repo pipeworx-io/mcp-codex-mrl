@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-codex-mrl",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Codex Alimentarius maximum residue limits — the internationally agreed legal ceilings for pesticide residues and veterinary drug residues in food, adopted by the FAO/WHO Codex Alimentarius Commission and used as the reference for food trade disputes.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-e0252f8b10fed3690429643130e1d21d42161263776a954a00aadc9d3a0cad71",
-    "sourceCommit": "b0a4b8e2f3f5b3a4c3f9f2c9a73f91b20d32ce11"
+    "sourceHash": "v1-2cae0efdd1124487da377a4c8d182372bcb3edb764dacefb2999a8614a53bbdf",
+    "sourceCommit": "f1ef7a2f6b9cb1b8da1374ec2fcb28c661582b35"
   }
 }
