@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-codex-mrl",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "Codex Alimentarius maximum residue limits — the internationally agreed legal ceilings for pesticide residues and veterinary drug residues in food, adopted by the FAO/WHO Codex Alimentarius Commission and used as the reference for food trade disputes.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-codex-mrl": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "codex-mrl"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-codex-mrl.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/codex-mrl",
   "pipeworx": {
-    "sourceHash": "v1-2cae0efdd1124487da377a4c8d182372bcb3edb764dacefb2999a8614a53bbdf",
-    "sourceCommit": "f1ef7a2f6b9cb1b8da1374ec2fcb28c661582b35"
+    "mode": "gateway",
+    "slug": "codex-mrl",
+    "gatewaySlug": "codex-mrl",
+    "sourceHash": "v1-481ef5dff2fee782ae6c104da8e89064fbfe65aac67eec1147fe60558aca93fa",
+    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
   }
 }

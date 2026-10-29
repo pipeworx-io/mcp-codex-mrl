@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/codex-mrl",
   "title": "Codex Mrl",
   "description": "Codex Alimentarius maximum residue limits — the internationally agreed legal ceilings for…",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/codex-mrl",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-codex-mrl",
